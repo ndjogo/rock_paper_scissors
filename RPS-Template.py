@@ -1,4 +1,4 @@
-#%%
+
 import cv2
 from keras.models import load_model
 import numpy as np
@@ -17,7 +17,7 @@ while True:
         print("ROCK")
     elif prediction[0][1] > 0.5:
         print("PAPER")
-    elif prediction[0][1] > 0.5:
+    elif prediction[0][2] > 0.5:
         print("SCISSORS")
     else:
         print("NOTHING")
@@ -33,4 +33,4 @@ cap.release()
 # Destroy all the windows
 cv2.destroyAllWindows()
 
-# %%
+
