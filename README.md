@@ -132,4 +132,4 @@ I would like to give credit to username: HOD101s because his code helped me impe
 
 ## Conclusions
 
-I've created a "Rock, Paper and Scissors" game with 5 rounds. The game returns the winner or anounces a draw at the end. The game works reasonably well howeve, the model's accuracy could be improved. Ocasionally the model incorrectly predicts the user's choice. This could be improved by using more images when training the model on TeachableMachine. 
+I've created a "Rock, Paper and Scissors" game with 5 rounds. The game returns the winner or anounces a draw at the end. The game works reasonably well however, the model's accuracy could be improved. Ocasionally the model incorrectly predicts the user's choice. This could be improved by using more images when training the model on TeachableMachine. 
